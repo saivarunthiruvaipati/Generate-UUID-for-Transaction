@@ -1,0 +1,3 @@
+def uuid = java.util.UUID.randomUUID().toString()
+message.setProperty("transactionId", uuid)
+return message
